@@ -1,0 +1,5 @@
+AI has been very helpful in understanding technical concepts in a clearer and more structured way. Topics like D3 scales, grouping data, legends, color mapping, and tooltips can feel overwhelming at first. AI explains these ideas step by step and breaks them into smaller, understandable parts. This makes it easier to see how different pieces connect, such as how data transformation relates to visualization design.
+
+By providing example code, it helped me understand how to implement similar ideas for my own tasks. Seeing practical examples made abstract concepts more concrete and easier to apply. It also helped me understand common mistakes and how different D3 functions work together.
+
+AI supported my learning by providing all resources in one place that helped me to code and AI provided the right guidance whenever I faced any error and that technical details and intuitve explanation helped me resolve any errors

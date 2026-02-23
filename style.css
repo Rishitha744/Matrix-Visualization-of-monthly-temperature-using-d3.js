@@ -1,0 +1,101 @@
+:root {
+  --bg: #0b0f14;
+  --panel: #121a26;
+  --text: #e8eef7;
+  --muted: #a7b4c5;
+  --stroke: rgba(255,255,255,0.12);
+}
+/* Body styling */
+body {
+  margin: 0;
+  font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial;
+  background: var(--bg);
+  color: var(--text);
+}
+
+/* Header styling */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 16px 18px;
+  border-bottom: 1px solid var(--stroke);
+  background: linear-gradient(180deg, rgba(255,255,255,0.06), rgba(255,255,255,0));
+}
+
+h1 {
+  margin: 0;
+  font-size: 20px;
+}
+/*Sub title styling */
+.subtitle {
+  margin: 6px 0 0 0;
+  color: var(--muted);
+  font-size: 13px;
+  max-width: 850px;
+}
+
+.controls {
+  display: grid;
+  gap: 10px;
+  justify-items: end;
+}
+
+.btn {
+  cursor: pointer;
+  border: 1px solid var(--stroke);
+  background: var(--panel);
+  color: var(--text);
+  padding: 10px 12px;
+  border-radius: 10px;
+  font-weight: 700;
+}
+
+#chart {
+  padding: 14px 18px 22px 18px;
+}
+
+.axis text {
+  fill: var(--muted);
+  font-size: 12px;
+}
+
+.axis path, .axis line {
+  stroke: var(--stroke);
+}
+
+.cell-rect {
+  stroke: rgba(255,255,255,0.10);
+  stroke-width: 1;
+}
+
+.sparkline path {
+  fill: none;
+  stroke: rgba(255,255,255,0.9);
+  stroke-width: 1.2;
+}
+
+.sparkline .spark-bg {
+  stroke: rgba(255,255,255,0.12);
+  stroke-width: 1;
+}
+/* tooltip styling*/
+.tooltip {
+  position: fixed;
+  pointer-events: none;
+  background: rgba(18, 26, 38, 0.95);
+  border: 1px solid rgba(255,255,255,0.14);
+  color: var(--text);
+  padding: 10px 12px;
+  border-radius: 10px;
+  box-shadow: 0 10px 28px rgba(0,0,0,0.35);
+  font-size: 13px;
+  line-height: 1.25;
+  max-width: 280px;
+}
+
+.legend-label {
+  fill: var(--muted);
+  font-size: 12px;
+}
