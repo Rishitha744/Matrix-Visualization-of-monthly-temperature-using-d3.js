@@ -1,4 +1,4 @@
-# CSCE 679 — Assignment 1: Matrix View (Hong Kong Monthly Temperature)
+# Matrix View (Hong Kong Monthly Temperature)
 
 This project implements a **Year × Month matrix view** to visualize Hong Kong temperature data from `temperature_daily.csv` (daily records).  
 Each matrix cell represents **one month of a specific year**, where the **cell background color encodes temperature**.  
